@@ -38,3 +38,11 @@ li.active{
 li:hover:not(.active){
     color:rgb(35, 35, 35);
 }
+.chat{
+    color:white;
+    background-color:black;
+    font-size:24px;
+    border-radius:50%;     
+    padding:5px; 
+    cursor:pointer
+}

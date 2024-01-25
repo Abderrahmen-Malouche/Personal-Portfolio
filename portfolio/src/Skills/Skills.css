@@ -1,0 +1,19 @@
+.list{
+    display:grid;
+    grid-template-columns: repeat(4,300px);
+    gap:6px;
+}
+.list h3{
+    font-size:25px;
+}
+.list ul{
+    list-style-type: none;
+    padding:0;
+    }
+    .list ul li{
+        margin-bottom:15px;
+        color:rgb(80, 79, 79);
+        display:flex;
+        justify-content: left;
+        font-size:20px;
+    }

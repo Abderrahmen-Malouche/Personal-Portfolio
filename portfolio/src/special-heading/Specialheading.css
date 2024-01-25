@@ -1,0 +1,11 @@
+.special-heading{
+    font-size:55px;
+    color:black;
+    letter-spacing: 0.1px;
+    font-weight: bold;
+    margin-bottom:60px;
+}
+.special-heading span{
+    font-size:75px;
+    color:rgb(110, 6, 242);
+}

@@ -1,15 +1,18 @@
-import Navbar from "./Navbar/Navbar";
+import Navbar from "./Navbar/Navbar.jsx";
 import "./App.css"
-import Hero from "./Hero/Hero"
-import { BrowserRouter, Routes } from "react-router-dom";
+import { BrowserRouter, Routes ,Route} from "react-router-dom";
+import Footer from "./Footer/Footer.jsx";
+import Contact from "./Pages/Contact/Contact.jsx"
+import Home from "./Pages/Home/Home.jsx";
 function App() {
   return (
     <BrowserRouter>
-    <Navbar/>
-    <Hero/>
-    <Routes>
-
-    </Routes>
+    <Navbar />
+      <Routes>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+      </Routes>
+    <Footer/>
     </BrowserRouter>
   );
 }
