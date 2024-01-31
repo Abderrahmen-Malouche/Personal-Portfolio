@@ -1,0 +1,14 @@
+
+.experience .container{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.projects{
+    display:flex;
+    flex-direction: column;
+
+}
+.special{
+    margin:auto;
+}

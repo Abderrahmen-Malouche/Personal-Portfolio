@@ -6,35 +6,25 @@
     text-decoration: none;
     height:100vh;
 }
-.container{
-   margin:0 60px;
-   padding:10px 150px; 
-} 
-.hero-left{
-    flex:1;
-    margin:0;
-    padding:0;
-}
-.hero .hero-right{
-    width:40%;
-}
 .hero-left h5{
     font-size:30px;
     font-weight: 300;
     color:rgb(46, 45, 45);
 }
-h5 img{
+.hero-left h5 img{
     width:50px;
 }
 .hero-left h1{
+    width:450px;
     margin-top: -20px;
     font-size:90px;
     line-height:0.9;
+    display:inline-block
 }
-h1 span{
+.hero-left h1 span{
     color:rgb(110, 6, 242);
 }
-p{
+.hero-left p{
     color:rgb(80, 79, 79);
     margin-top:-40px;
     font-size:20px;
@@ -73,7 +63,24 @@ p{
 }
 .hero-right img{
     border-radius: 50%;
-    width: 90%;
     border: 1px solid rgb(110, 6, 242);
     padding:20px;
+}
+@media (max-width:991px){
+    .hero .container{
+        flex-direction:column ;
+    }
+    .hero-left {
+     display:flex ;
+     flex-direction: column; 
+     align-items: center;
+    
+    }
+    .hero-right img{
+        border-radius: 50%;
+        border: 1px solid rgb(110, 6, 242);
+        padding:20px;
+        margin-top:60px;
+        width:300px;
+    }
 }

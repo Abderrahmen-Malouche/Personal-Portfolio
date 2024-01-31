@@ -7,10 +7,13 @@ const Experience = () => {
   return (
     <div className='experience' id="experience">
       <div className="container">
-        <Specialheading title="Projects"/>
+        <Specialheading  className="special" title="Projects"/>
+        <div className="projects">
+
       {projects.map((item)=>{
         return <Project name={item.name} position={item.position} image={item.image} description={item.description}/>
       })}
+      </div>
       </div>
         </div>
   )

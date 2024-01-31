@@ -1,7 +1,30 @@
-.list{
+.skills .container{
+    display:flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.skills .list{
     display:grid;
-    grid-template-columns: repeat(4,300px);
-    gap:6px;
+    grid-template-columns: repeat(4,120px);
+    column-gap:140px;
+    margin:0 auto;
+}
+@media (max-width:991px){
+    .skills .list{
+        grid-template-columns: repeat(3,120px);
+        column-gap:140px
+    }
+    
+}
+@media (max-width:767px){
+    .skills .list{
+        grid-template-columns: repeat(2,120px);
+        column-gap:140px;
+    }
+    .list h3{
+        font-size: 35px;
+    }
+    
 }
 .list h3{
     font-size:25px;

@@ -2,16 +2,23 @@
     display:flex;
     flex-direction:row;
     margin-bottom:60px;
+    gap:90px
+}
+@media (max-width:991px){
+    .project{
+        flex-direction:column ;
+    }
+    
 }
 .project img{
     width:500px;
     border-radius:40px
 }   
-.left .text{
-    padding-left:50px;
-}
-.right img{
-    padding-left:50px;
+@media (max-width:767px){
+    .project img{
+        width:450px;
+    }
+    
 }
 h5{
     font-size:30px;

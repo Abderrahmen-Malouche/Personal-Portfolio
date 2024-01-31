@@ -5,7 +5,7 @@ import Specialheading from '../special-heading/Specialheading'
 
 const Skills = () => {
   return (
-    <div className='skills' id="skills" id="about">
+    <div className='skills' id="skills" >
         <div className="container">
         <Specialheading title="Skills"/>
         <div className="list">
@@ -21,7 +21,7 @@ const Skills = () => {
                 <ul>
                     <li>Javacript</li>
                     <li>ReactJS</li>
-                    <li>Tailwindcss</li>
+                    
                     <li>CSS3</li>
                 </ul>
             </div>
@@ -31,6 +31,15 @@ const Skills = () => {
                     <li>NodeJS</li>
                     <li>ExpressJS</li>
                     <li>MongoDB</li>
+                </ul>
+            </div>
+            <div className="skill">
+            <h3>Programming Languages</h3>
+                <ul>
+                    <li>Java</li>
+                    <li>C</li>
+                    <li>C++</li>
+                    <li>Python</li>
                 </ul>
             </div>
             <div className="skill">
